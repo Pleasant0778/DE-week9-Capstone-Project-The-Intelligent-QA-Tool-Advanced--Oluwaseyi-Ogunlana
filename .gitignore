@@ -4,7 +4,6 @@ config/.env
 
 cache_result/
 
-
 __pycache__/
 *.pyc
 
