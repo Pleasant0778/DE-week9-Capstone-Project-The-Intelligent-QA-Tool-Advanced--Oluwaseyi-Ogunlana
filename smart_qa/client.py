@@ -68,7 +68,7 @@ class LLMClient:
                 contents=prompt
             )
 
-            api_result = response.text  # this is the string from the LLM
+            api_result = response.text  
 
             # Save to persistent cache
             self.cache[prompt] = api_result
@@ -102,7 +102,7 @@ class LLMClient:
         prompt = (
             f"Context:\n{context}\n\n"
             f"Question: {question}\n"
-            f"Answer strictly based on the context."
+            f"Answer STRICTLY ONLY based on the provided context."
         )
 
         logging.info('Checking cache for ask  method')
