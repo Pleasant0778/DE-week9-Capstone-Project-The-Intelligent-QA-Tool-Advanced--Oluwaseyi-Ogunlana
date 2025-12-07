@@ -1,0 +1,1 @@
+{'People': ['Alice Johnson', 'Thomas Okafor', 'Dr. Emily Brown'], 'Dates': ['July 2020', '2021', '2022'], 'Locations': ['Paris', 'Nigeria', 'University of London', 'Eiffel Tower']}
